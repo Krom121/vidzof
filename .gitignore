@@ -1,0 +1,7 @@
+db.sqlite3
+Pipfile
+Pipfile.lock
+local.py
+migrations
+__pychache__
+seed_data.json

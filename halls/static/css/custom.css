@@ -1,0 +1,53 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body{
+  font-size: 1.4rem;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  color: #344;
+  overflow-x: hidden;
+}
+
+.jumbotron {
+  background-image: url(../img/vidz-jumbo.jpg);
+  background-size: cover;
+  background-position: bottom;
+  font-size: 1.4rem;
+  margin: 0;
+}
+
+.jumbotron-heading {
+  color: #eee;
+  font-weight: 600;
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  text-shadow: 3px 5px 2px #474747, -3px 6px 8px rgba(5,2,1,0);
+}
+
+.jumbotron-text{
+  color: #eee;
+  font-weight: 600;
+  font-size: 1.6rem;
+  text-shadow: 3px 5px 2px #474747, -3px 6px 8px rgba(5,5,4,0);
+  margin-bottom: 2rem;
+}
+
+.primary-heading{
+  font-size: 3rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.btn{
+      text-transform: uppercase;
+      text-decoration: none;
+      padding: .5rem 2rem;
+      border-radius: 10rem;
+      transition: all .2s;
+}
