@@ -5,3 +5,4 @@ local.py
 migrations
 __pychache__
 seed_data.json
+.vscode
